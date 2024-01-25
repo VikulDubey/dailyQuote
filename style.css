@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(128deg, #86b6f6, #b4d4ff);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quoteSection {
+  background: #eef5ff;
+  min-height: 18rem;
+  max-height: max-content;
+  width: 25rem;
+  min-width: 30rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 0.4rem;
+}
+.text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.updatedQuoteSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 11rem;
+  justify-content: center;
+  position: relative;
+  min-width: 21rem;
+}
+.dailyQuote {
+  text-align: justify;
+}
+.authorName {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #6895d2;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
+.buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.newQuote,
+.tweetQuote {
+  padding: 0.4rem 0.6rem;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  box-shadow: 0px 0px 2px -1px black;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.newQuote:hover {
+  background-color: #657786;
+  color: #fff;
+}
+.tweetQuote {
+  background-color: #1da1f2;
+}
+.tweetQuote:hover {
+  background-color: #fff;
+}
+.tweetQuote a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tweetQuote a:hover {
+  color: #1da1f2;
+}
